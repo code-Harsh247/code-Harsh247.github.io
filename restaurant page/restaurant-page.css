@@ -1,0 +1,224 @@
+.restaurant {
+    margin: 0;
+  }
+  .restaurant-name {
+    position: relative;
+    font-size: 96px;
+    display: inline-block;
+    width: 811px;
+    height: 224px;
+    flex-shrink: 0;
+  }
+  .img8 {
+    position: relative;
+    background-color: var(--color-snow-100);
+    width: 1173px;
+    height: 509px;
+    z-index: 0;
+  }
+  .img-carousel-child {
+    position: relative;
+    width: 1400px;
+    height: 429px;
+    object-fit: cover;
+  }
+  .img-carousel,
+  .img-carousel1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .img-carousel1 {
+    margin: 0 !important;
+    position: absolute;
+    top: 18px;
+    left: 16px;
+    width: 1141px;
+    height: 429px;
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-direction: row;
+    gap: 172px;
+    z-index: 1;
+  }
+  .img-carousel {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .img-carousel,
+  .location1 {
+    align-self: stretch;
+    position: relative;
+  }
+  .lorem-ipsum-dolor {
+    flex: 1;
+    position: relative;
+  }
+  .location-box {
+    align-self: stretch;
+    background-color: rgba(255, 249, 249, 0.15);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    padding: 33px 28px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: var(--font-size-13xl);
+    font-family: var(--font-general-sans);
+    padding-bottom: 200px;
+  }
+  .location {
+    width: 669px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .map-icon {
+    flex: 1;
+    position: absolute;
+    margin: 0 !important;
+    top: 13px;
+    left: 16px;
+    max-width: 100%;
+    overflow: hidden;
+    height: 468px;
+    object-fit: cover;
+    z-index: 0;
+  }
+  .location-and-map,
+  .map-box {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .map-box {
+    background-color: var(--color-snow-100);
+    width: 471px;
+    justify-content: flex-start;
+    position: relative;
+  }
+  .location-and-map {
+    align-self: stretch;
+    justify-content: space-between;
+  }
+  .am,
+  .opening-time-container {
+    position: relative;
+    display: inline-block;
+    width: 873px;
+    height: 103px;
+    flex-shrink: 0;
+  }
+  .am {
+    width: 234px;
+    height: 39px;
+  }
+  .time-open-box1 {
+    align-self: stretch;
+    position: relative;
+    background-color: var(--color-gainsboro);
+    height: 56px;
+    margin-top: -32px;
+  }
+  .time-box {
+    width: 348px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: var(--font-size-29xl);
+    font-family: var(--font-general-sans);
+  }
+  .pm,
+  .time-close-box1 {
+    position: absolute;
+    margin: 0 !important;
+  }
+  .pm {
+    top: 0;
+    left: 57px;
+    display: inline-block;
+    width: 234px;
+    height: 39px;
+    flex-shrink: 0;
+    z-index: 0;
+  }
+  .time-close-box1 {
+    align-self: stretch;
+    position: relative;
+    background-color: var(--color-gainsboro);
+    height: 56px;
+    margin-top: -32px;
+  }
+  .time-box1,
+  .time-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .time-box1 {
+    width: 348px;
+    align-items: center;
+    position: relative;
+    font-size: var(--font-size-29xl);
+    font-family: var(--font-general-sans);
+  }
+  .time-section {
+    width: 1231px;
+    align-items: flex-start;
+  }
+  .menu1 {
+    position: relative;
+  }
+  .line-group-icon,
+  .menu-bg {
+    align-self: stretch;
+    position: relative;
+  }
+  .menu-bg {
+    background-color: var(--color-gainsboro);
+    height: 712px;
+  }
+  .line-group-icon {
+    max-width: 100%;
+    overflow: hidden;
+    height: 658.62px;
+    flex-shrink: 0;
+    margin-top: -690px;
+  }
+  .menu,
+  .menu-box,
+  .restaurant-page {
+    display: flex;
+    flex-direction: column;
+  }
+  .menu-box {
+    align-self: stretch;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .menu,
+  .restaurant-page {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .menu {
+    align-self: stretch;
+    gap: 39px;
+  }
+  .restaurant-page {
+    position: relative;
+    background-color: var(--color-black);
+    width: 100%;
+    overflow: hidden;
+    padding: 53px 51px;
+    box-sizing: border-box;
+    gap: 95px;
+    text-align: left;
+    font-size: var(--font-size-45xl);
+    color: var(--color-white);
+    font-family: var(--font-stardom);
+  }
+  

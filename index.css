@@ -1,0 +1,157 @@
+.restaurants-and-eateries {
+    position: relative;
+    display: inline-block;
+    width: 638px;
+    height: 147px;
+    flex-shrink: 0;
+  }
+  .check {
+    color: gold;
+  }
+  .hungry-in-the-container {
+    position: relative;
+    font-size: 24px;
+    font-family: var(--font-satoshi);
+    display: inline-block;
+    width: 638px;
+    height: 31px;
+    flex-shrink: 0;
+  }
+  .header {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 40px;
+    padding-bottom: 40px;
+  }
+  .img-child {
+    align-self: stretch;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 321px;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  
+
+  .img1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1149px;
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding-3xs);
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+ 
+  .restaurant-card-1:hover{
+    filter: grayscale(80%);
+  }
+
+  .restaurant-card-4:hover{
+    filter: grayscale(80%);
+  }
+
+  .restaurant-card-4:hover .learn-more{
+    visibility: visible;
+  }
+
+  .restaurant-card-1:hover .learn-more{
+    visibility: visible;
+  }
+  .learn-more {
+    position: absolute;
+    top: 137px;
+    left: 448px;
+    visibility: hidden;
+    width: 253px;
+    height: 68px;
+  }
+  .img {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+  }
+  .location-somewhere,
+  .restaurant-1 {
+    position: relative;
+    display: inline-block;
+    width: 217px;
+    height: 48px;
+    flex-shrink: 0;
+  }
+  .location-somewhere {
+    width: 348px;
+    height: 45px;
+  }
+  .title-text {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    padding: 0 var(--padding-17xl);
+    align-items: center;
+    justify-content: space-between;
+    font-size: var(--font-size-13xl);
+    color: var(--color-black);
+  }
+  .image-and-title {
+    position: absolute;
+    top: 8px;
+    left: 4px;
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-12xs);
+  }
+  .restaurant-card-1,
+  .restaurant-card-4 {
+    flex: 1;
+    position: relative;
+    background-color: var(--color-snow-100);
+    overflow: hidden;
+  }
+  .restaurant-card-1 {
+    align-self: stretch;
+  }
+  .restaurant-card-4 {
+    width: 1157px;
+  }
+  .cards {
+    align-self: stretch;
+    height: 1879px;
+    gap: 45px;
+    font-size: var(--font-size-29xl);
+    color: var(--color-snow-100);
+    font-family: var(--font-general-sans);
+  }
+  .cards,
+  .content,
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .main {
+    position: relative;
+    background-color: var(--color-black);
+    width: 100%;
+    overflow: hidden;
+    flex-direction: row;
+    padding: 58px 55px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    text-align: left;
+    font-size: var(--font-size-45xl);
+    color: var(--color-white);
+    font-family: var(--font-stardom);
+  }
+  
